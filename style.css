@@ -48,7 +48,7 @@ header {
 /*Animação e posição itens da página Index*/
 [data-page="index"] .container-text {
     top: 20vh;
-    left: 20vw;
+    left: 30vw;
     width: 50vw;
     animation: moverindex 2s ease-in-out;
 }
@@ -61,14 +61,14 @@ header {
 
     to {
         top: 20vh;
-        left: 20vw;
+        left: 30vw;
     }
 }
 
 /*Animação e posição itens da página SobreMim*/
 [data-page="SobreMim"] .container-text {
     top: 20vh;
-    left: 20vw;
+    left: 25vw;
     width: 60vw;
     animation: moverSobreMim 2s ease-in-out;
 }
@@ -81,14 +81,14 @@ header {
 
     to {
         top: 20vh;
-        left: 20vw;
+        left: 25vw;
     }
 }
 
 /*Animação e posição itens da página Projetos*/
 [data-page="projetos"] .container-text {
     top: 20vh;
-    left: 20vw;
+    left: 15vw;
     width: 60vw;
     padding: 0;
     animation: moverprojetos 2s ease-in-out;
@@ -102,7 +102,7 @@ header {
 
     to {
         top: 20vh;
-        left: 20vw;
+        left: 15vw;
     }
 }
 
@@ -155,3 +155,4 @@ p{
     margin-block-end: 0;
 
 }
+
