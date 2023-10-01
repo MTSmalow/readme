@@ -141,13 +141,11 @@ header {
 
 .text h3 {
     color: #fff;
-    font-size: 5vw;
 }
 
 .text h1 {
     color: #fff;
     margin-top: 0vw;
-    font-size: 3vw;
 }
 
 .text span {
@@ -157,7 +155,6 @@ header {
 .text p {
     color: #c0c0c0;
     font-weight: 500;
-    font-size: 1vw;
 }
 
 .redes-social {
