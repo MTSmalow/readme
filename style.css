@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(images/foto.gif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabeçalho-link a {
+    color: #fff;
+    font-size: 1.3vw;
+}
+
+.cabeçalho-link a:hover {
+    color: #2ecc71;
+    transition: .8s all;
+}
+
+.logo i {
+    --circle--:4vw;
+    height: var(--circle--);
+    width: var(--circle--);
+    background: transparent;
+    border: 1px solid #b6c9be;
+    color: #2ecc71;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+/*Animação e posição itens da página Index*/
+[data-page="index"] .container-text {
+    top: 40vh;
+    left: 30vw;
+    width: 50vw;
+    animation: moverindex 2s ease-in-out;
+}
+
+@keyframes moverindex {
+    from {
+        top: 40vh;
+        left: 100vw;
+    }
+
+    to {
+        top: 40vh;
+        left: 30vw;
+    }
+}
+
+/*Animação e posição itens da página SobreMim*/
+[data-page="SobreMim"] .container-text {
+    top: 40vh;
+    left: 25vw;
+    width: 50vw;
+    animation: moverSobreMim 2s ease-in-out;
+}
+
+@keyframes moverSobreMim {
+    from {
+        top: 40vh;
+        left: 100vw;
+    }
+
+    to {
+        top: 40vh;
+        left: 25vw;
+    }
+}
+
+/*Animação e posição itens da página Projetos*/
+[data-page="projetos"] .container-text {
+    top: 30vh;
+    left: 15vw;
+    width: 60vw;
+    padding: 0;
+    animation: moverprojetos 2s ease-in-out;
+}
+
+[name="TCC-txt"]{
+    justify-content: right;
+    font-weight: 700;
+    color: #a8d8b9;
+    margin-left: 2vw;
+    margin-right: 0;
+    float: right;
+}
+
+@keyframes moverprojetos {
+    from {
+        top: 25vh;
+        left: 100vw;
+    }
+
+    to {
+        top: 30vh;
+        left: 15vw;
+    }
+}
+
+/*Itens em comum nas 3 páginas*/
+.container-text {
+    position: fixed;
+    animation: mover 2s ease-in-out;
+}
+
+.text h3 {
+    color: #fff;
+    font-size: 5vw;
+}
+
+.text h1 {
+    color: #fff;
+    margin-top: 0vw;
+    font-size: 3vw;
+}
+
+.text span {
+    color: #c2503e;
+}
+
+.text p {
+    color: #c0c0c0;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.redes-social {
+    margin-top: 10px;
+}
+
+.redes-social a {
+    font-size: 2vw;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
