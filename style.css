@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,153 +5,163 @@
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style: none;
-}
-
-body {
+  }
+  
+  body {
     overflow: hidden;
-}
-
-.background {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(images/foto.gif);
+  }
+  
+  .background {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+      url(images/foto.gif);
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
-
-}
-
-header {
+  }
+  
+  header {
     display: flex;
     justify-content: space-around;
     max-width: 100%;
     align-items: center;
     text-align: center;
     padding-top: 1rem;
-}
-
-.cabeçalho-link {
+  }
+  
+  .cabeçalho-link {
     display: flex;
     gap: 2rem;
     font-weight: 300;
     cursor: pointer;
-}
-
-.cabeçalho-link a {
+  }
+  
+  .cabeçalho-link a {
     color: #fff;
-}
-
-.cabeçalho-link a:hover {
+  }
+  
+  .cabeçalho-link a:hover {
     color: #2ecc71;
-    transition: .8s all;
-}
-/*Animação e posição itens da página Index*/
-[data-page="index"] .container-text {
+    transition: 0.8s all;
+  }
+  /*Animação e posição itens da página Index*/
+  [data-page="index"] .container-text {
     top: 20vh;
     left: 30vw;
     width: 50vw;
     animation: moverindex 2s ease-in-out;
-}
-
-@keyframes moverindex {
+  }
+  
+  @keyframes moverindex {
     from {
-        top: 20vh;
-        left: 100vw;
+      top: 20vh;
+      left: 100vw;
     }
-
+  
     to {
-        top: 20vh;
-        left: 30vw;
+      top: 20vh;
+      left: 30vw;
     }
-}
-
-/*Animação e posição itens da página SobreMim*/
-[data-page="SobreMim"] .container-text {
+  }
+  
+  /*Animação e posição itens da página SobreMim*/
+  [data-page="SobreMim"] .container-text {
     top: 20vh;
     left: 25vw;
     width: 60vw;
     animation: moverSobreMim 2s ease-in-out;
-}
-
-@keyframes moverSobreMim {
+  }
+  
+  @keyframes moverSobreMim {
     from {
-        top: 20vh;
-        left: 100vw;
+      top: 20vh;
+      left: 100vw;
     }
-
+  
     to {
-        top: 20vh;
-        left: 25vw;
+      top: 20vh;
+      left: 25vw;
     }
-}
-
-/*Animação e posição itens da página Projetos*/
-[data-page="projetos"] .container-text {
+  }
+  
+  /*Animação e posição itens da página Projetos*/
+  [data-page="projetos"] .container-text {
     top: 20vh;
     left: 15vw;
     width: 60vw;
     padding: 0;
     animation: moverprojetos 2s ease-in-out;
-}
-
-@keyframes moverprojetos {
+  }
+  
+  @keyframes moverprojetos {
     from {
-        top: 20vh;
-        left: 100vw;
+      top: 20vh;
+      left: 100vw;
     }
-
+  
     to {
-        top: 20vh;
-        left: 15vw;
+      top: 20vh;
+      left: 15vw;
     }
-}
-
-/*Itens em comum nas 3 páginas*/
-.container-text {
+  }
+  
+  /*Itens em comum nas 3 páginas*/
+  .container-text {
     position: fixed;
     animation: mover 2s ease-in-out;
-}
-
-.text h3 {
+  }
+  
+  .text h3 {
     color: #fff;
     font-size: 5vw;
-}
-
-.text h1 {
+  }
+  
+  .text h1 {
     color: #fff;
     margin-top: 0vw;
-}
-
-.text span {
+  }
+  
+  .text span {
     color: #c2503e;
-}
-
-.text p {
+  }
+  
+  .text p {
     color: #c0c0c0;
     font-weight: 500;
-}
-
-.redes-social {
+  }
+  
+  .redes-social {
     margin-top: 10px;
-}
-
-.redes-social a {
+  }
+  
+  .redes-social a {
     font-size: 2vw;
     color: #ffffff;
-    padding: 10px;
     margin-top: 5px;
-}
-
-.btn {
+  }
+  
+  .btn {
     margin-top: 15px;
-}
-
-body,p,h2,h3{
+  }
+  
+  body,
+  p,
+  h2,
+  h3 {
     display: flex;
-}
-p{
-    font-size:80%;
+  }
+  p {
+    font-size: 80%;
     margin-block-start: 0;
     margin-block-end: 0;
-
-}
-
+  }
+  .github {
+    padding: 10px;
+    padding-top: 13px;
+  }
+  .whats,
+  .instagram,
+  .linkedin {
+    padding: 10px;
+  }
+  
