@@ -164,4 +164,8 @@
   .linkedin {
     padding: 10px;
   }
-  
+  .projetosLinks{
+    a:link {
+      color:#c2503e
+    }
+  }
