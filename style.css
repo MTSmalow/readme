@@ -165,6 +165,7 @@
     padding: 10px;
   }
   .projetosLinks{
+    color: #c2503e;
     a:link {
       color:#c2503e
     }
