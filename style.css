@@ -189,16 +189,6 @@
   animation: drop 1s linear;
 }
 
-.tree:before {
-  content: "";
-  position: absolute;
-  background-color: #823723;
-  border-radius: 50%;
-  width: 30px;
-  height: 10px;
-  top: 50px;
-  left: -5px;
-}
 
 .tree:after {
   content: "";
