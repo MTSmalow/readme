@@ -7,6 +7,7 @@ function pegarDia() {
 function executarComando() {
   let diaAtual = pegarDia();
   if (diaAtual === "24/12" || diaAtual === "25/12") {
+    //codigo para criação de neve no site
     window.onload = function () {
       var canvas = document.getElementById("canvas"),
         ctx = canvas.getContext("2d");
@@ -62,7 +63,7 @@ function executarComando() {
 }
 
 executarComando();
-
+// codigo para exibiçao da arvore de natal
 function verificarPeriodoDeFestejos() {
   let dia = new Date().getDate();
   let mes = new Date().getMonth() + 1;
