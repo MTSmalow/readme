@@ -121,15 +121,19 @@ header {
 .text h1 {
   color: #fff;
   margin-top: 0vw;
+  font-size: 20px;
 }
 
 .text span {
   color: #c2503e;
+  font-size: 20px;
+
 }
 
 .text p {
   color: #c0c0c0;
   font-weight: 500;
+  font-size: 20px;
 }
 
 .redes-social {
@@ -154,7 +158,6 @@ h3 {
 }
 
 p {
-  font-size: 80%;
   margin-block-start: 0;
   margin-block-end: 0;
 }
@@ -172,6 +175,7 @@ p {
 
 .projetosLinks {
   color: #c2503e;
+  font-size: 20px;
 
   a:link {
     color: #c2503e
